@@ -1,189 +1,176 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Tomás Guija Valiente
+  label: PhD Student
+  email: tomasguija@gmail.com
+  website: https://www.linkedin.com/in/tomas-guija-valiente/
+  location: Madrid, Spain
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    PhD student with a background in mathematics and computer science and an MSc in Artificial Intelligence. My research focuses on machine learning, computer vision and generative AI for longitudinal modeling, patient simulation and digital twins. I develop generalizable methods that extend beyond medical imaging, guided by the belief that the field should both benefit from and contribute to advances in machine learning and computer vision. I also contribute actively to open-source scientific software.
+
+    <script>
+      (function () {
+        var link = document.currentScript.closest(".cv").querySelector('a[href^="https://www.linkedin.com/"]');
+        if (link) link.closest("tr").querySelector("b").textContent = "LinkedIn";
+      })();
+    </script>
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: TomasGuija
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: tomas-guija-valiente
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: PROMISE – LAIMBIO
+        url: http://promise.urjc.es/en/
+        position: Machine Learning and Computer Vision Researcher
+        location: Madrid, Spain
+        start_date: 2025-10
+        end_date: present
+        summary: Research focused on generative deep learning methods for 3D computer vision, with applications to medical imaging. This work includes RARF, a rectified-flow model achieving 5th place at the BraTS 2026 Challenge, and SynthRCT, a conditional deformation-generation framework presented as an oral at MIART @ MICCAI 2026; both resulted in peer-reviewed publications.
+
+      - company: Google Summer of Code – DIPY
+        url: https://tomasguija.github.io/gsoc-2026-dipy/
+        position: Open Source Contributor, Python Software Foundation
+        location: Remote
+        start_date: 2026-05
+        end_date: 2026-08
+        summary: Contributed to DIPY through GSoC 2026, implementing and benchmarking new similarity metrics for deformable medical image registration, alongside performance and robustness improvements to the registration framework. [Project Page](https://tomasguija.github.io/gsoc-2026-dipy/)
+
+      - company: ML Circle
+        url: https://mlcircle.org/
+        position: Machine Learning Researcher
+        location: Madrid, Spain
+        start_date: 2025-01
+        end_date: 2025-10
+        summary: "Machine Learning researcher working on R&D projects and technology consulting, with experience designing generative AI models and Transformer-based architectures. My research focused on generative modeling for vector graphics, leading to the publication of “DesigNet: Learning to Draw Vector Graphics as Designers Do” in Computers & Graphics."
+
+    Education:
+      - institution: Universidad Rey Juan Carlos
+        location: Madrid, Spain
+        url: https://www.urjc.es/
+        degree: PhD in Information and Communication Technologies
+        start_date: 2026-09
+        end_date: 2029-09
+
+      - institution: Universidad Politécnica de Madrid
+        location: Madrid, Spain
+        url: https://www.upm.es/
+        degree: MSc in Artificial Intelligence
+        start_date: 2024-09
+        end_date: 2025-06
         highlights:
-          - Relativity
-          - Description 2.
+          - "GPA: 9.3/10.0."
+          - José Cuena Award for one of the best academic records in the MSc.
+          - Master’s Thesis graded 10.0/10.0, leading to a publication under ML Circle.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - institution: Universidad de Sevilla
+        location: Seville, Spain
+        url: https://www.us.es/
+        degree: BSc in Mathematics and BSc in Computer Science
+        start_date: 2019-09
+        end_date: 2024-06
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 8.44/10.0."
+          - "Highest admission score in the Faculty of Mathematics, 2019/2020: 13.87/14.0."
+          - "Honors in the Final Degree Project: Variational Topological Autoencoder for Single-Cell Data."
+          - Honors in three additional courses across Mathematics and Computer Science.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - institution: Université Libre de Bruxelles
+        location: Brussels, Belgium
+        url: https://www.ulb.be/
+        degree: Erasmus+ Exchange, MSc in Computer Science and Engineering
+        start_date: 2022-09
+        end_date: 2023-07
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Best Full Paper Award · CEIG 2026
+        date: 2026-06
+        awarder: Eurographics SE
+        summary: "Awarded for “DesigNet: Learning to Draw Vector Graphics as Designers Do.”"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: José Cuena Award
+        date: 2025-06
+        awarder: Universidad Politécnica de Madrid
+        summary: Recognition for one of the best academic records in the MSc in Artificial Intelligence.
+
+      - title: Second Place · EUDIS Defence Hackathon 2025
+        date: 2025-05
+        awarder: European Commission
+        summary: "Second place for the design plan and roadmap of “Warfighter Care Tool.”"
+
+      - title: Honours in Final Degree Project
+        date: 2024-06
+        awarder: Universidad de Sevilla
+        summary: "Awarded for “Variational topological autoencoder for single-cell data.”"
+
+      - title: Highest Entrance Admission Score · Faculty of Mathematics
+        date: 2019-09
+        awarder: Universidad de Sevilla
+        summary: Entered with a score of 13.87/14.00.
+
+      - title: Fourth Place · Spanish Rubik's Cube National Final
+        date: 2015-10
+        awarder: World Cube Association
+        summary: Fourth place in Pyraminx and finalist in several events across the 2014 and 2015 championships.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "SynthRCT: Scalable Conditional Deformation Synthesis for Synthetic Repeat CT Generation"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Tomas Guija-Valiente
+          - Blanca Rodríguez-González
+          - Norberto Malpica
+        publisher: MICCAI 2026 Workshops and Challenges · Springer Nature
+        releaseDate: 2026-09
+        url: https://arxiv.org/abs/2609.08627
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "RARF: Region-Aware Rectified Flows for 3D Brain MRI Inpainting"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Tomas Guija-Valiente
+          - Blanca Rodríguez-González
+          - Norberto Malpica
+          - Ángel Torrado-Carvajal
+        publisher: MICCAI 2026 Workshops and Challenges · Springer Nature
+        releaseDate: 2026-09
+        url: https://arxiv.org/abs/2609.03956
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "DesigNet: Learning to Draw Vector Graphics as Designers Do"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+          - Tomas Guija-Valiente
+          - Iago Suárez
+        publisher: Computers & Graphics
+        releaseDate: 2026-06
+        url: https://doi.org/10.1016/j.cag.2026.104627
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Spanish
+        summary: Native.
       - name: English
-        summary: "Fluent"
+        summary: C1, Cambridge CAE.
+      - name: French
+        summary: B2, DELF.
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Technical Skills:
+      - label: Languages
+        details: Python, C, C#, R, Matlab, Java, JavaScript.
+      - label: ML & Deep Learning
+        details: PyTorch, Lightning, TensorFlow, Keras, scikit-learn, Wandb, RunPod.
+      - label: Computer Vision
+        details: OpenCV, MONAI, TorchIO, SimpleITK.
+      - label: Scientific Computing
+        details: NumPy, SciPy, Pandas, Matplotlib.
+      - label: Medical Imaging
+        details: DIPY, ANTsPy, NiBabel.
+      - label: Development Tools
+        details: Git, GitHub, Docker, Conda, Linux, Unity.
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    Open Source:
+      - bullet: "[DIPY](https://dipy.org/) / [Python Software Foundation](https://www.python.org/psf/): GSoC 2026 contributor across image registration, segmentation, performance, and scientific computing. Selected contributions: Mutual Information for SyN ([#4067](https://github.com/dipy/dipy/pull/4067)), Local Cross-Correlation for affine registration ([#4078](https://github.com/dipy/dipy/pull/4078)), and multithreaded displacement-field composition ([#4073](https://github.com/dipy/dipy/pull/4073))."
+      - bullet: "Hugging Face: Contributions to [timm](https://github.com/huggingface/pytorch-image-models/pull/2760) and [PEFT](https://github.com/huggingface/peft/pull/3758)."
+      - bullet: "Kornia: Computer vision contributions, including Kimi-VL implementation alignment ([#3968](https://github.com/kornia/kornia/pull/3968))."
+      - bullet: "NV-Generate-CTMR: Added staged model offloading for low-VRAM inference ([#46](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR/pull/46))."
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Research Interests:
+      - bullet: Generative AI, Computer Vision, Deep Learning, Machine Learning, AI safety and alignment, Open Source Scientific Software.

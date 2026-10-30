@@ -1,13 +1,49 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [Research, Open-source]
 horizontal: false
 ---
+
+<style>
+  .projects .card figure {
+    aspect-ratio: 16 / 9;
+    margin: 0;
+    overflow: hidden;
+    background: var(--global-bg-color);
+  }
+
+  .projects .card figure picture,
+  .projects .card figure img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects .card figure img {
+    object-fit: contain;
+  }
+
+  .projects a[href$="/projects/synthrct/"] figure {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects a[href$="/projects/synthrct/"] figure::after {
+    content: "";
+    background: var(--global-bg-color) url("{{ '/assets/img/projects/synthrct-phase-coronal.gif' | relative_url }}") center / contain no-repeat;
+    border-left: 1px solid var(--global-divider-color);
+  }
+
+  @media (min-width: 768px) {
+    .projects .card-text {
+      min-height: 2lh;
+    }
+  }
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">
